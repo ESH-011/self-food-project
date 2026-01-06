@@ -743,10 +743,11 @@ int main(){
 			break;
         cout<<"Username: ";
         string user;
-        cin>>user;
+		cin.ignore();
+        getline(cin,user);
         cout<<"Password: ";
         string pass;
-        cin>>pass;
+        getline(cin,pass);
         bool loggedIn=false;
         if(choice==1){
             for(auto& a:admins)
