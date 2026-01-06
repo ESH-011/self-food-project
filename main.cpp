@@ -294,8 +294,9 @@ void adminMenu(Admin& currentAdmin){
         		continue;
     		}
     		s.id=idInput;
+			cin.ignore();
     		cout<<"Username: ";
-    		cin>>s.username;
+    		getline(cin,s.username);
     		exists=false;
     		for(auto& st:students){
         		if(st.username==s.username){
@@ -309,7 +310,7 @@ void adminMenu(Admin& currentAdmin){
     		}
     		cout<<"Password: ";
     		string p;
-    		cin>>p;
+    		getline(cin,p);
     		s.passHash=hashPassword(p);
     		s.wallet=0;
     		students.push_back(s);
