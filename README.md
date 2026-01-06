@@ -41,4 +41,6 @@ In Student Menu, Students can:
 ## How to Run
 Compile and Run:
 ...bash
-g++ main.cpp -o food./food
+g++ main.cpp -o foodproject
+
+./foodproject
