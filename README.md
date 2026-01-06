@@ -19,7 +19,7 @@ After choosing, users must type the correct username and password to enter.
 
 In Admin Menu, Administrator can:
 1. Add/delete/edit info students + list of students     
-2. Add/delete/edit info food  + list of available food + reservations of the day   
+2. Add/delete/edit info food  + list of added food + reservations of the day   
 3. See reports of total income and refunds + most reserved food + students with most reserved     
 4. change their own username and password 
 
